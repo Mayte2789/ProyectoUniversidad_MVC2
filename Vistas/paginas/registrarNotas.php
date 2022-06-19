@@ -3,39 +3,6 @@
 <div class="d-flex justify-content-center text-center">
 
 <form class="p-5 bg-light" method="post">
-<div class="form-group">
-        <label for="Nota">Id Estudiante:</label>
-
-        <div class="input-group">
-            
-            <div class="input-group-prepend">
-                <span class="input-group-text">
-                    <i class="fas fa-user"></i>
-                </span>
-            </div>
-
-            <input type="number" class="form-control" id="IdEstudiante" name="registroIdEstudiante">
-
-        </div>
-        
-    </div>
-<div class="form-group">
-        <label for="Nota"> Id Curso:</label>
-
-        <div class="input-group">
-            
-            <div class="input-group-prepend">
-                <span class="input-group-text">
-                    <i class="fas fa-user"></i>
-                </span>
-            </div>
-
-            <input type="number" class="form-control" id="IdCurso" name="registroIdCurso">
-
-        </div>
-        
-    </div>
-
     <div class="form-group">
         <label for="Nota">Nota 1:</label>
 
@@ -47,7 +14,7 @@
                 </span>
             </div>
 
-            <input type="number" class="form-control" id="Nota1" name="registroNota1">
+            <input type="text" class="form-control" id="Nota1" name="registroNota1">
 
         </div>
         
@@ -65,7 +32,7 @@
                 </span>
             </div>
 
-            <input type="number" class="form-control" id="Nota2" name="registroNota2">
+            <input type="text" class="form-control" id="Nota2" name="registroNota2">
         
         </div>
         
@@ -82,9 +49,41 @@
                 </span>
             </div>
 
-            <input type="number" class="form-control" id="Nota3" name="registroNota3">
-            <input type="hidden" name="IdEstudiante" value="<?php echo $usuario["IdEstudiante"]; ?>">
+            <input type="text" class="form-control" id="Nota3" name="registroNota3">
+           
         </div>
+        <div class="form-group">
+        <label for="Nota">Id Estudiante:</label>
+
+        <div class="input-group">
+            
+            <div class="input-group-prepend">
+                <span class="input-group-text">
+                    <i class="fas fa-user"></i>
+                </span>
+            </div>
+
+            <input type="text" class="form-control" id="IdEstudiante" name="registroIdEstudiante">
+
+        </div>
+        
+    </div>
+<div class="form-group">
+        <label for="Nota"> Id Curso:</label>
+
+        <div class="input-group">
+            
+            <div class="input-group-prepend">
+                <span class="input-group-text">
+                    <i class="fas fa-user"></i>
+                </span>
+            </div>
+
+            <input type="text" class="form-control" id="IdCurso" name="registroIdCurso">
+
+        </div>
+        
+    </div>
 
     <?php 
 

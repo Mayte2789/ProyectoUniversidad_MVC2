@@ -8,12 +8,13 @@ class Controladornotas{
         if(isset($_POST["RegistroNotas"])){
 
             $tabla = "nota";
+
             $datos = array(
 				           "Nota1" => $_POST["registroNota1"],
 				           "Nota2" => $_POST["registroNota2"],
 				           "Nota3" => $_POST["registroNota3"],
-						   "IdEstudiante"=>$_POST["registroIdEstudiante"],
-				           "IdCurso"=>$_POST["registroIdCurso"]
+						   "IdEstudiante" =>$_POST["registroIdEstudiante"],
+				           "IdCurso" =>$_POST["registroIdCurso"]
 						    
 						); 
 
